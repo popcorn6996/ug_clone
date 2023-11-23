@@ -1,0 +1,247 @@
+.container {
+    display: flex;
+    margin-left: 40px;
+    /* Optional: Adjust alignment and spacing */
+    justify-content: space-between; /* or other values like flex-start, center, flex-end */
+    align-items: center; /* or other values like flex-start, flex-end, stretch */
+  }
+
+ .container img{
+    width: 200px;
+  }
+  
+  .element1{
+   
+    /* Other styles for the element */
+    background-color: #f0f0f0;
+    padding: 10px;
+    justify-content: space-between;
+    display: inline-block;
+
+  }
+  .element2 {
+    /* Add styling for individual elements */
+    padding: 10px;
+   /* background-color: #f0f0f0;*/
+    list-style:none;; 
+     
+    padding: 10;
+    margin: 10;
+    display: flex; 
+    padding-inline: 10px;
+    justify-content: space-between;
+    display: inline-flex;
+  
+    /* Add any other necessary styling */
+  }
+
+  .p{
+    align-items: center;
+    font-size: 100;
+    text-align: center;
+  }
+
+  .text-under-container {
+    text-align: center;
+    margin-top: 10px; /* Adjust the space between the container and the text */
+  }
+
+  h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+  }
+
+  .short-courses {
+    font-size: 15;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+  }
+
+  .image-cont {
+    position: relative;
+    width: 100%; /* Adjust container width */
+    height: 400px; /* Adjust container height */
+    background-image: url('https://images.unsplash.com/photo-1700556581877-a21318d4d84e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyMHx8fGVufDB8fHx8fA%3D%3D'); /* Set the image path */
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    
+  }
+
+  .container-wrapper {
+    display: flex;
+    flex-wrap: wrap; /* Allow containers to wrap to the next row */
+    justify-content: center;
+    gap: 10px; /* Adjust gap between containers */
+  }
+
+  .text {
+    padding: 10px;
+    background-color: #2c2a58;
+    color: #ccc;
+  }
+
+  .footer {
+    background-color: #2c2a58;
+    list-style: none;
+   
+    width: 100%;
+    display: flex;
+    
+
+
+
+  }
+
+  /* .all-footer {
+    justify-content: space-evenly;
+    gap: 10px;
+    display: flex;
+    margin-top: 0px;
+    width: 100%;
+   
+
+
+  } */
+  .foot-text{
+    padding: 10px;
+    background-color: #2c2a58;
+    color: #ccc;
+  }
+
+  .long-cont {
+    width: 250px;
+    list-style: none;
+    justify-content: space-evenly;
+    height: 400px;
+    background-color: #2c2a58;
+      align-items: center;
+    margin: 10px; /* Adjust margin between containers */
+    overflow: hidden;
+    border: 1px solid #ccc; /* Add border for visualization */
+  }
+
+  .image {
+    width: 100%;
+    height: 150px; /* Adjust image height */
+    background-image: url('https://dcs.ug.edu.gh/img/short_courses_images/Web%20Dev.png'); /* Set the image path */
+    background-size: cover;
+    background-position: center;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+
+
+  }
+
+  .row-container {
+    display: flex;
+    margin-top: 120px;
+    margin-left: 200;
+    margin-right: 100;
+
+    justify-content: space-evenly;
+    align-items: center; /* Center items vertically */
+    /* Additional styles for the row container */
+  }
+  .row-icon {
+    display: flex;
+    margin-top: 120px;
+    margin-left: 200;
+    margin-right: 100;
+    list-style: none;
+
+    justify-content: space-evenly;
+    align-items: center; /* Center items vertically */
+    /* Additional styles for the row container */
+  }
+  .row-p {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 200;
+    margin-right: 100;
+    list-style: none;
+
+    justify-content: space-evenly;
+    align-items: center; /* Center items vertically */
+    /* Additional styles for the row container */
+  }
+
+  .image-element {
+    width: 400px; /* Set width for the image */
+    height: 250px; /* Set height for the image */
+    /* Additional styles for the image */
+  }
+
+  /* .element2 {
+   /* Display list items in a row */
+  /* } */ */
+  
+  .element2 li {
+   padding: 40px;
+    margin-right: 20px;
+    margin-right: 20px;
+    padding-inline: 10px;
+    padding-left: 15px;
+    background-color: #f0f0f0; 
+    justify-content: space-between;
+    display: inline-block;
+  }
+
+  .image-container {
+    position: relative;
+    width: 100%; /* Set the width of the container */
+    max-width: 1200px; /* Adjust maximum width as needed */
+    margin: 0 auto; /* Center the container horizontally */
+    height: 250px; /* Set the height of the container */
+    background-image: url('https://plus.unsplash.com/premium_photo-1700580483044-aa2db0a52be4?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMnx8fGVufDB8fHx8fA%3D%3D'); /* Set the image path */
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the image */
+    padding-top: 100px;
+  
+  }
+
+  .text-container {
+    position: absolute;
+    bottom: 0;
+    top: 420;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+     /* Distribute space between child elements */
+    padding: 20px; /* Add padding */
+    box-sizing: border-box; /* Include padding in width calculation */
+    /* Additional styles for the text containers */
+  }
+
+  .box {
+    width: calc(25% - 20px); 
+    height: 60px; 
+    background-color: #f0f0f0; 
+    margin-right: 60px; 
+    align-items: center;
+ 
+  }
+
+
+  .video-container {
+    width: 90%; /* Set the width of the container */
+    max-width: 1200px; /* Adjust maximum width as needed */
+    margin: 0 auto; /* Center the container horizontally */
+  }
+  .video-container video {
+    width: 100%; /* Make the video fill the container */
+    display: block; /* Ensure video fills its container */
+  }
